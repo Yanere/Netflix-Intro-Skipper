@@ -1,0 +1,15 @@
+{
+  "name": "Yanere Netflix Skipper",
+  "description": "This extension skips the intro",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Activate Intro skipper",
+    "default_icon": "icon128.png"
+  },
+  "permissions": ["https://www.netflix.com/*"]
+}
